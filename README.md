@@ -33,11 +33,12 @@ The network architecture used in this implementation consists of four hidden lay
 
 ## Requirements
 The code requires Python and the following packages:
-- NumPy
+- matplotlib.pyplot
+- numpy
 - pandas
-- Matplotlib
+- torch
+- torch.nn
 - scikit-learn
-- PyTorch
 
 Install the dependencies with:
 
@@ -47,4 +48,6 @@ pip install -r requirements.txt
 
 ## Usage
 Run the main script:
+```bash
 python ICNN_Darcy_Weisbach.py
+```
